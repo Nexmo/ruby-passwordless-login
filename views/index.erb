@@ -1,6 +1,8 @@
-<h1>Hello <%= @current_user %></h1>
+<h1>
+  Hello <%= @user %>
+</h1>
 
-<% if @current_user %>
+<% if @user %>
   <a href="/logout">Logout</a>
 <% else %>
   <a href="/login">Login</a>
