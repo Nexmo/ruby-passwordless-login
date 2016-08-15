@@ -10,7 +10,10 @@ Dotenv.load
 
 # nexmo library
 require 'nexmo'
-nexmo = Nexmo::Client.new
+nexmo = Nexmo::Client.new(
+  key: ENV['NEXMO_API_KEY'],
+  secret: ENV['NEXMO_API_SECRET']
+)
 
 # enable sessions and set the
 # session secret
