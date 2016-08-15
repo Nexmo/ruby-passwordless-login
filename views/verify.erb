@@ -1,0 +1,17 @@
+<h1>Verify Number</h1>
+
+<p>
+  We have sent a verification code to your number. This could take up
+  to a minute to arrive.
+</p>
+
+<form action="/finish_verification" method="post">
+  <div class="field">
+    <label for="number">Code:</label>
+    <input type="text" name="code" placeholder='2345'>
+  </div>
+
+  <div class="actions">
+    <input type="submit" value="Verify">
+  </div>
+</form>
