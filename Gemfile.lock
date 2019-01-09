@@ -6,7 +6,7 @@ GEM
     mustermann (1.0.2)
     nexmo (5.0.2)
       jwt
-    rack (2.0.5)
+    rack (2.0.6)
     rack-flash3 (1.0.5)
       rack
     rack-protection (2.0.1)
@@ -28,4 +28,4 @@ DEPENDENCIES
   sinatra
 
 BUNDLED WITH
-   1.16.1
+   1.17.2
